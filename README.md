@@ -1,0 +1,1 @@
+"# Cursor-auto-wise-frontend" 
