@@ -28,7 +28,7 @@ export function HeroSection() {
             <div className="flex flex-wrap gap-4">
               <Button 
                 size="lg" 
-                className="bg-autowise-blue hover:bg-autowise-blue/80 text-white px-6 py-3 h-auto shadow-lg transition-all"
+                className="bg-autowise-blue hover:bg-autowise-blue/80 text-white px-6 py-3 h-auto shadow-lg transition-all hover:bg-white  hover:text-autowise-navy"
                 onClick={() => navigate("/cars")}
               >
                 Voir nos véhicules
@@ -36,10 +36,10 @@ export function HeroSection() {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-white text-white hover:bg-white hover:text-autowise-navy px-6 py-3 h-auto shadow-lg transition-all"
+                className=" bg-autowise-blue hover:bg-autowise-blue/80 text-white px-6 py-3 h-auto shadow-lg transition-all border-transparent hover:bg-white"
                 onClick={() => navigate("/services")}
               >
-                En savoir plus
+                En savoir plus 
               </Button>
             </div>
           </div>
